@@ -14,11 +14,10 @@ body {
     font-family: 'Mulish', sans-serif;
     /* padding: 0; */
     /* margin: auto; */
+    margin-top: 24px;
 }
 
-div {
-    border: 1px solid yellowgreen;
-}
+
 
 .header-container {
     max-width: 1170px;
@@ -29,10 +28,7 @@ div {
 
 .logo-menu-container {
     display: flex;
-    justify-content: space-between;
-    height: 56px;
-    /* align-items: center; */
-    /* width: 50%; */
+    align-items: center;
 }
 
 .logo-name {
@@ -56,6 +52,7 @@ div {
     font-size: 2.25rem;
     line-height: 0%;
     font-weight: 800;
+    padding-left: 10px;
 }
 
 .red {
@@ -88,7 +85,76 @@ div {
 
 /* header banner */
 .header-banner {
-    margin-top: 50px;
+    margin-top: 100px;
+    max-width: 1170px;
+    height: 500px;
+    background-image: url('../img/Group\ 13\ \(1\)\ \(1\).png');
+    border-radius: 16px;
+}
+
+.header-banner img {
+    height: 100%;
+
+}
+
+.header-banner-content {
+    background: linear-gradient(180deg, #070211, transparent);
+    border-radius: 16px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 105px;
+}
+
+.header-banner-content h2 {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+}
+
+.header-banner-content p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 24px 247px;
+}
+
+.selectors-wrap{
+    display: inline-flex;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 24px;
+    background-color: rgba(255, 255, 255, 0.30);
+    max-width: 800px;
+}
+
+.xp-btn{
+    background-color: #fff;
+    color: rgba(19, 19, 24, 0.50);;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    border-radius: 8px;
+    width: 174px;
+    height: 52px;
+}
+
+.find-now-btn{
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    border: none;
+    border-radius: 8px;
+    width: 174px;
+    height: 52px;
 }
 
 /* main starts */
@@ -99,6 +165,7 @@ div {
     display: flex;
     justify-content: space-between;
     margin: auto;
+    margin-top: 100px;
 }
 
 .ptour-txt-box {
@@ -151,10 +218,14 @@ div {
 /* main ends */
 
 /* unique section starts */
+.blog {
+    margin-top: 100px;
+}
 
 /* footer */
 .footer {
     background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
 }
 
 .footer-container {
@@ -174,6 +245,7 @@ div {
     font-style: normal;
     font-weight: 800;
     line-height: 0%;
+    padding-left: 10px;
 }
 
 .footer-description p {

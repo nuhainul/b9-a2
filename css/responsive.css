@@ -6,12 +6,133 @@
 /* styles for mobile devices */
 @media screen and (max-width: 600px) {
 
+    body {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
     /* header nav */
+    .header-container {
+        margin-top: 20px;
+    }
+
+    .logo-menu-container {
+        flex-direction: column;
+    }
+
+    .logo-name {
+        flex-direction: row;
+    }
+
+    .logo img {}
+
+    .sitename {}
+
+    .sitename h1 {
+        font-size: 22px;
+        line-height: 20px;
+        font-weight: 800;
+    }
+
+    .top-menu {
+        line-height: 0;
+    }
+
+    .top-menu ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* header banner */
+    .header-banner {
+        /* height: 500px; */
+        background-image: url('../img/Group\ 13\ \(1\)\ \(1\).png');
+        border-radius: 16px;
+    }
+
+    .header-banner img {
+        width: 100%;
+
+    }
+
+    .header-banner-content {
+        background: linear-gradient(180deg, #070211, transparent);
+        border-radius: 16px;
+        color: #FFF;
+        text-align: center;
+        padding-top: 32px;
+        padding-bottom: 0px;
+    }
+
+    .header-banner-content h2 {
+        font-size: 22px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+    }
+
+    .header-banner-content p {
+        font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+        padding: 15px;
+    }
+
+    .selectors-wrap {
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px;
+        padding-top: 24px;
+        background-color: rgba(255, 255, 255, 0.30);
+        /* max-width: 800px; */
+        margin-bottom: 32px;
+    }
+
+    .xp-btn {
+        /* background-color: #fff;
+        color: rgba(19, 19, 24, 0.50);
+        ;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border: none;
+        border-radius: 8px; */
+        width: 255px;
+        height: 52px;
+        font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+
+    .find-now-btn {
+        /* background-color: var(--primary-color);
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        border: none;
+        border-radius: 8px; */
+        width: 255px;
+        height: 52px;
+        font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+
+
 
     /* main starts */
 
     /* < !-- our popular tours starts --> */
     .popular-tours-container {
+        margin-top: 24px;
         padding: 10px;
         flex-direction: column;
     }
@@ -46,10 +167,15 @@
     /* main ends */
 
     /* unique section starts */
-
+    .blog {
+        margin-top: 24px;
+    }
 
 
     /* footer */
+    .footer {
+        margin-top: 24px;
+    }
 
     .footer-container {
         padding-top: 33px;
