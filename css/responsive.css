@@ -8,6 +8,47 @@
 
     /* header nav */
 
+    /* main starts */
+
+    /* < !-- our popular tours starts --> */
+    .popular-tours-container {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .ptour-txt-box {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .ptour-txt-box h2 {
+        font-size: 20px;
+    }
+
+    .read-more-btn {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .ptours-img img {
+        border-radius: 16px;
+        /* width: 540px; */
+        /* height: 550px; */
+        width: 100%;
+    }
+
+
+    /* < !-- choose your destination starts --> */
+    /* < !-- why choose us starts --> */
+    /* < !-- 2 optional sections: deals & discounts, simple perfect place --> */
+    /* < !-- newsletter starts --> */
+
+    /* main ends */
+
+    /* unique section starts */
+
+
+
     /* footer */
 
     .footer-container {
