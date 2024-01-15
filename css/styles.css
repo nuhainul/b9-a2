@@ -1,12 +1,12 @@
 /* Mulish font embed */
-<style>
+/* <style> */
   @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
-</style>
+/* </style> */
 
 /* universal styles */
 * {
-    padding: 0;
-    margin: 0;
+    /* padding: 0;
+    margin: 0; */
 }
 /* root variables */
 :root {
@@ -17,4 +17,47 @@
 /* shared styles */
 
 /* customized styles */
+body{
+    font-family: 'Mulish', sans-serif;
+    width: 1170px;
+    padding: 0;
+    margin: auto;
+}
 
+div{
+    border: 1px solid yellowgreen;
+}
+
+.header-container{
+    
+}
+.logo-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-name{
+    display: flex;
+}
+.sitename{
+    /* font-family: 'Mulish', sans-serif; */
+}
+.sitename h1{
+    /* font-family: 'Mulish', sans-serif; */
+}
+.sitename-colored{
+    color: var(--primary-color);
+}
+.top-menu{
+
+}
+.top-menu ul{
+    display: flex;
+    gap: 44px;
+    list-style: none;
+}
+.top-menu a{
+    text-decoration: none;
+}
+a .selected{
+    color: var(--primary-color);
+}
