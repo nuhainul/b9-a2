@@ -1,6 +1,6 @@
 /* Mulish font embed */
 /* <style> */
-  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
 /* </style> */
 
 /* universal styles */
@@ -8,6 +8,7 @@
     /* padding: 0;
     margin: 0; */
 }
+
 /* root variables */
 :root {
     --primary-color: #FF5400;
@@ -17,47 +18,79 @@
 /* shared styles */
 
 /* customized styles */
-body{
+body {
     font-family: 'Mulish', sans-serif;
     width: 1170px;
     padding: 0;
     margin: auto;
 }
 
-div{
+div {
     border: 1px solid yellowgreen;
 }
 
-.header-container{
-    
+.header-container {
+    margin-top: 50px;
 }
-.logo-menu{
+
+.logo-menu {
     display: flex;
     justify-content: space-between;
+    height: 56px;
+    align-items: center;
 }
-.logo-name{
+
+.logo-name {
     display: flex;
+    text-align: center;
+    justify-content: center;
 }
-.sitename{
-    /* font-family: 'Mulish', sans-serif; */
+
+.logo img {
+    /* margin-top: auto; */
+    width: 50px;
+    height: 50px;
 }
-.sitename h1{
-    /* font-family: 'Mulish', sans-serif; */
+
+.sitename {
+    /* line-height: normal; */
 }
-.sitename-colored{
+
+.sitename h1 {
+    font-size: 36px;
+    line-height: 0%;
+    font-weight: 800;
+}
+
+.sitename-colored {
     color: var(--primary-color);
 }
-.top-menu{
 
+.top-menu {
+    line-height: 0%;
 }
-.top-menu ul{
-    display: flex;
+
+.top-menu ul {
+    display: inline-flex;
     gap: 44px;
     list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
 }
-.top-menu a{
+
+.top-menu a {
     text-decoration: none;
+    /* font-size: 180px; */
 }
-a .selected{
+
+.top-menu .selected {
     color: var(--primary-color);
+}
+
+/* header banner */
+.header-banner {
+    margin-top: 50px;
 }
