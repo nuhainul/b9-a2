@@ -1,3 +1,8 @@
+/* Mulish font embed */
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+</style>
+
 /* universal styles */
 * {
     padding: 0;
@@ -5,8 +10,8 @@
 }
 /* root variables */
 :root {
-    --primary-color: blue;
-    --text-color: black;
+    --primary-color: #FF5400;
+    --secondary-color: #131318;
 }
 
 /* shared styles */
