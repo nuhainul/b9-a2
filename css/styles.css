@@ -3,11 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
 /* </style> */
 
-/* universal styles */
-* {
-    /* padding: 0;
-    margin: 0; */
-}
 
 /* root variables */
 :root {
@@ -15,14 +10,10 @@
     --secondary-color: #131318;
 }
 
-/* shared styles */
-
-/* customized styles */
 body {
     font-family: 'Mulish', sans-serif;
-    width: 1170px;
-    padding: 0;
-    margin: auto;
+    /* padding: 0; */
+    /* margin: auto; */
 }
 
 div {
@@ -30,20 +21,25 @@ div {
 }
 
 .header-container {
-    margin-top: 50px;
+    max-width: 1170px;
+    margin-top: 3.15rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.logo-menu {
+.logo-menu-container {
     display: flex;
     justify-content: space-between;
     height: 56px;
-    align-items: center;
+    /* align-items: center; */
+    /* width: 50%; */
 }
 
 .logo-name {
     display: flex;
-    text-align: center;
-    justify-content: center;
+    /* text-align: center; */
+    /* justify-content: center; */
+    width: 50%;
 }
 
 .logo img {
@@ -57,33 +53,33 @@ div {
 }
 
 .sitename h1 {
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 0%;
     font-weight: 800;
 }
 
-.sitename-colored {
+.red {
     color: var(--primary-color);
 }
 
 .top-menu {
     line-height: 0%;
+    width: 50%;
 }
 
 .top-menu ul {
-    display: inline-flex;
-    gap: 44px;
+    display: flex;
+    gap: 1.5rem;
     list-style: none;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     padding: 10px 0px;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    /* align-items: center; */
 }
 
 .top-menu a {
     text-decoration: none;
-    /* font-size: 180px; */
 }
 
 .top-menu .selected {
@@ -94,3 +90,62 @@ div {
 .header-banner {
     margin-top: 50px;
 }
+
+/* footer */
+.footer {
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-container {
+    padding: 110px 335px;
+    text-align: center;
+}
+
+.footer-tile {}
+
+.footer-h3 {
+    display: inline-flex;
+    align-items: center;
+}
+
+.footer-sitename {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 0%;
+}
+
+.footer-description p {
+    margin-top: 15px;
+    font-size: 1rem;
+    /* text-align: center; */
+}
+
+.social-icons {
+    margin-top: 33px;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+}
+
+.social-icons i {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+hr {
+    border: 0.5px solid darkgray;
+    margin: none;
+    padding: none;
+    max-width: 872px;
+}
+
+.copyright {
+    margin-top: 50px;
+}
+
+.copyright p {
+    font-size: 14px;
+    padding: 0px;
+}
+
+/* responsive goes later */
