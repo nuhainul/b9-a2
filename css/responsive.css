@@ -1,0 +1,9 @@
+/* styles for medium devices (optional) */
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    
+}
+
+/* styles for mobile devices */
+@media  and (max-width: 600px) {
+    
+}

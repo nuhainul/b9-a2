@@ -1,0 +1,15 @@
+/* universal styles */
+* {
+    padding: 0;
+    margin: 0;
+}
+/* root variables */
+:root {
+    --primary-color: blue;
+    --text-color: black;
+}
+
+/* shared styles */
+
+/* customized styles */
+
