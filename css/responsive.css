@@ -67,16 +67,16 @@
 
     .header-banner-content h2 {
         font-size: 22px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
     }
 
     .header-banner-content p {
         font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
         padding: 15px;
     }
 
@@ -104,9 +104,9 @@ line-height: 21px;
         width: 255px;
         height: 52px;
         font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 
     .find-now-btn {
@@ -121,9 +121,9 @@ line-height: normal;
         width: 255px;
         height: 52px;
         font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 
 
@@ -159,7 +159,21 @@ line-height: normal;
     }
 
 
-    /* < !-- choose your destination starts --> */
+    /* choose your destination starts */
+    /* responsive */
+    @media screen and (max-width: 600px) {
+
+        .img-row-1,
+        .img-row-2,
+        .img-row-3 {
+            flex-direction: column;
+        }
+
+        .image-box {
+            width: 100%;
+        }
+    }
+
     /* < !-- why choose us starts --> */
     /* < !-- 2 optional sections: deals & discounts, simple perfect place --> */
     /* < !-- newsletter starts --> */
