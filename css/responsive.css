@@ -7,13 +7,15 @@
 @media screen and (max-width: 600px) {
 
     body {
-        padding-left: 10px;
-        padding-right: 10px;
+        /* padding-left: 10px;
+        padding-right: 10px; */
     }
 
     /* header nav */
     .header-container {
         margin-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .logo-menu-container {
@@ -160,7 +162,6 @@
 
 
     /* choose your destination starts */
-    /* responsive */
     @media screen and (max-width: 600px) {
 
         .img-row-1,
@@ -174,7 +175,16 @@
         }
     }
 
-    /* < !-- why choose us starts --> */
+    /* < why choose us starts */
+    .ccard-row-1,
+    .ccard-row-2 {
+        flex-direction: column;
+    }
+
+    .card-box {
+        width: 335px;
+        height: 289px;
+    }
     /* < !-- 2 optional sections: deals & discounts, simple perfect place --> */
     /* < !-- newsletter starts --> */
 
@@ -183,6 +193,8 @@
     /* unique section starts */
     .blog {
         margin-top: 24px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
 

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* <!-- newsletter section starts --> */
+        .newsletter {
+            display: flex;
+            max-width: 1170px;
+            margin: 50px auto;
+            padding: 10px;
+            justify-content: space-between;
+            gap: 24px;
+        }
+
+        .newsletter-form-wraper {
+            display: flex;
+            flex-direction: column;
+            max-width: 474px;
+            max-height: 422px;
+            border-radius: 16px;
+            border: 1px solid #FF5400;
+            padding: 40px 40px 0px 40px;
+            justify-content: center;
+        }
+        .newsletter-form-wraper h3, .newsletter-form-wraper p {
+            padding-left: 40px;
+        }
+        .newsletter-form-wraper h3 {
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 0;
+        }
+
+        .newsletter-form-wraper p {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 0;
+            padding-top: 16px;
+        }
+
+        .newsletter-form-wraper hr {
+            margin: none;
+            border: 0.5px solid grey;
+            width: 393px;
+            margin-top: 24px;
+        }
+
+
+        .newsletter-form {
+            display: flex;
+            flex-direction: column;
+            padding: 16px 40px 40px 40px;
+            justify-content: center;
+        }
+
+        .nlf-input {
+            width: 393px;
+            height: 52px;
+            border-radius: 8px;
+            background: rgba(19, 19, 24, 0.05);
+            border: none;
+            margin-bottom: 16px;
+            /* padding-left: 16px; */
+            line-height: 0;
+            text-indent: 10px;
+        }
+
+        .subscribe-button {
+            width: 393px;
+            height: 52px;
+            border-radius: 8px;
+            background: #FF5400;
+            border: none;
+            /* margin-bottom: 16px; */
+            padding: 16px;
+            color: #fff;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 0;
+        }
+
+        .newsletter-discount-wraper {
+            /* display: block; */
+            /* flex-direction: column; */
+            max-width: 672px;
+            max-height: 422px;
+            border-radius: 16px;
+            /* border: 1px solid red; */
+        }
+
+        .nl-photo {
+            position: relative;
+            width: 672px;
+            height: 422px;
+            border-radius: 16px;
+            background-color: grey;
+        }
+
+        .nl-photo img {
+            width: 100%;
+            height: 100%;
+            border-radius: 16px;
+        }
+
+        .nl-discount-box {
+            text-align: center;
+            width: 324px;
+            height: 120px;
+            transform: rotate(-20deg);
+            border-radius: 16px;
+            background: #FF5400;
+            position: sticky;
+            z-index: 99;
+            margin-top: -190px;
+            margin-left: 320px;
+            right: 0;
+            padding: 10px;
+            color: #fff;
+            line-height: 0;
+            /* padding-top: auto; */
+        }
+
+        .nl-discount-box p{
+            padding-top: 10px;
+        }
+
+        .nl-discount-light {
+            color: #FFF;
+            text-align: center;
+            /* font-family: Mulish; */
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            /* line-height: normal; */
+        }
+
+        .nl-discount-bold {
+            color: #FFF;
+            /* font-family: Mulish; */
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 800;
+            /* line-height: normal; */
+        }
+        /* <!-- newsletter section ends --> */
+
+        /* <!-- newsletter responsive starts --> */
+        @media screen and (max-width: 600px) {
+        .newsletter {
+            flex-direction: column;
+        }
+    }
+        /* <!-- newsletter responsive ends --> */
+    </style>
+</head>
+
+<body>
+    <!-- newsletter section starts -->
+
+    <section class="newsletter" id="newsletter">
+        <div class="newsletter-form-wraper">
+            <h3 class="">Newsletter</h3>
+            <p class="">Get your daily dose of travel news & tips. Sign up today!</p>
+            <hr>
+            <div class="newsletter-form">
+                <input type="text" class="nlf-input" placeholder="Enter your name">
+                <input type="text" class="nlf-input" placeholder="Enter your email">
+                <button type="submit" class="subscribe-button">Subscribe</button>
+            </div>
+        </div>
+
+        <div class="newsletter-discount-wraper">
+            <div class="nl-photo"><img src="./img/Rectangle 8 (1).png" alt=""></div>
+            <div class="nl-discount-box">
+                <p class="nl-discount-light">Travel.com</p>
+                <p class="nl-discount-bold">Save up to 70%</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- newsletter section ends -->
+</body>
+
+</html>
