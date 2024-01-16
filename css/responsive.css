@@ -197,7 +197,7 @@
     /* < !-- newsletter starts --> */
     .newsletter-container {
         flex-direction: column;
-        width: 500px;
+        width: 335px;
         margin: auto;
     }
 
@@ -223,7 +223,7 @@
     .nl-photo {
         /* position: relative; */
         /* width: 100%; */
-        width: 500px;
+        width: 335px;
         /* height: 442px; */
         /* max-width: 474px;
         max-height: 422px; */
@@ -261,7 +261,7 @@
     /* unique section starts */
     .blog {
         margin: 50px auto;
-        width: 474px;
+        width: 335px;
     }
 
 
