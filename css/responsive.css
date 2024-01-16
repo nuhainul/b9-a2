@@ -162,7 +162,7 @@
 
 
     /* choose your destination starts */
-    @media screen and (max-width: 600px) {
+    /* @media screen and (max-width: 600px) { */
 
         .img-row-1,
         .img-row-2,
@@ -173,9 +173,9 @@
         .image-box {
             width: 100%;
         }
-    }
+    /* } */
 
-    /* < why choose us starts */
+    /* why choose us starts */
     .ccard-row-1,
     .ccard-row-2 {
         flex-direction: column;
@@ -187,7 +187,9 @@
     }
     /* < !-- 2 optional sections: deals & discounts, simple perfect place --> */
     /* < !-- newsletter starts --> */
-
+    .newsletter-container{
+        flex-direction: column;
+    }
     /* main ends */
 
     /* unique section starts */
