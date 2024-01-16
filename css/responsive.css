@@ -197,20 +197,21 @@
     /* < !-- newsletter starts --> */
     .newsletter-container {
         flex-direction: column;
-        width: 335px;
+        width: 400px;
         margin: auto;
     }
 
     .newsletter-form-wraper {
-        /* display: flex; */
-        /* flex-direction: column; */
         width: 100%;
-        /* height: 422px; */
-        /* border-radius: 16px; */
-        /* border: 1px solid #FF5400; */
         padding: auto;
-        /* justify-content: center; */
-        /* align-items: center; */
+    }
+
+    .nlf-input {
+        width: 335px;
+    }
+    
+    .subscribe-button {
+        width: 335px;
     }
 
     .nl-h3,
@@ -223,7 +224,7 @@
     .nl-photo {
         /* position: relative; */
         /* width: 100%; */
-        width: 335px;
+        width: 400px;
         /* height: 442px; */
         /* max-width: 474px;
         max-height: 422px; */
@@ -248,7 +249,7 @@
         position: sticky;
         z-index: 99; */
         margin-top: -190px;
-        margin-left: 190px;
+        margin-left: 52px;
         /* right: 0; */
         /* padding: 10px; */
         /* color: #fff; */
@@ -261,7 +262,7 @@
     /* unique section starts */
     .blog {
         margin: 50px auto;
-        width: 335px;
+        width: 400px;
     }
 
 
@@ -276,8 +277,6 @@
         padding-left: 44px;
         padding-right: 44px;
     }
-
-    .footer-tile {}
 
     .footer-h3 {
         /* display: flex; */
