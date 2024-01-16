@@ -165,15 +165,21 @@
     /* choose your destination starts */
     /* @media screen and (max-width: 600px) { */
 
-        .img-row-1,
-        .img-row-2,
-        .img-row-3 {
-            flex-direction: column;
-        }
+    .img-row-1,
+    .img-row-2,
+    .img-row-3 {
+        flex-direction: column;
+    }
 
-        .image-box {
-            width: 100%;
-        }
+    .image-box {
+        width: 100%;
+    }
+
+    .image-box img {
+        width: 100%;
+        height: 176px;
+    }
+
     /* } */
 
     /* why choose us starts */
@@ -186,9 +192,10 @@
         width: 335px;
         height: 289px;
     }
+
     /* < !-- 2 optional sections: deals & discounts, simple perfect place --> */
     /* < !-- newsletter starts --> */
-    .newsletter-container{
+    .newsletter-container {
         flex-direction: column;
         width: 524px;
     }
@@ -205,11 +212,13 @@
         /* align-items: center; */
     }
 
-    .nl-h3, .nl-p {
+    .nl-h3,
+    .nl-p {
         /* padding-left: 10px; */
         align-items: left;
         text-align: left;
     }
+
     .nl-photo {
         /* position: relative; */
         /* width: 100%; */
@@ -220,7 +229,7 @@
         /* border-radius: 16px;
         background-color: grey; */
     }
-    
+
     .nl-photo img {
         width: 100%;
         /* height: 442px; */
@@ -245,6 +254,7 @@
         /* line-height: 0; */
         /* padding-top: auto; */
     }
+
     /* main ends */
 
     /* unique section starts */
