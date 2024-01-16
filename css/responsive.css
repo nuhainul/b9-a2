@@ -260,9 +260,8 @@
 
     /* unique section starts */
     .blog {
-        margin-top: 24px;
-        padding-left: 10px;
-        padding-right: 10px;
+        margin: 50px auto;
+        width: 474px;
     }
 
 
