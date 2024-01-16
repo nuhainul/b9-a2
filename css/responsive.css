@@ -197,7 +197,8 @@
     /* < !-- newsletter starts --> */
     .newsletter-container {
         flex-direction: column;
-        width: 524px;
+        width: 500px;
+        margin: auto;
     }
 
     .newsletter-form-wraper {
@@ -222,7 +223,7 @@
     .nl-photo {
         /* position: relative; */
         /* width: 100%; */
-        width: 544px;
+        width: 500px;
         /* height: 442px; */
         /* max-width: 474px;
         max-height: 422px; */
@@ -247,7 +248,7 @@
         position: sticky;
         z-index: 99; */
         margin-top: -190px;
-        margin-left: 255px;
+        margin-left: 190px;
         /* right: 0; */
         /* padding: 10px; */
         /* color: #fff; */
