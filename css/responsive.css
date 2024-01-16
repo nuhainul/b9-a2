@@ -189,6 +189,60 @@
     /* < !-- newsletter starts --> */
     .newsletter-container{
         flex-direction: column;
+        width: 524px;
+    }
+
+    .newsletter-form-wraper {
+        /* display: flex; */
+        /* flex-direction: column; */
+        width: 100%;
+        /* height: 422px; */
+        /* border-radius: 16px; */
+        /* border: 1px solid #FF5400; */
+        padding: auto;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+
+    .nl-h3, .nl-p {
+        /* padding-left: 10px; */
+        align-items: left;
+        text-align: left;
+    }
+    .nl-photo {
+        /* position: relative; */
+        /* width: 100%; */
+        width: 544px;
+        /* height: 442px; */
+        /* max-width: 474px;
+        max-height: 422px; */
+        /* border-radius: 16px;
+        background-color: grey; */
+    }
+    
+    .nl-photo img {
+        width: 100%;
+        /* height: 442px; */
+        /* border-radius: 16px; */
+        /* display: none; */
+    }
+
+    .nl-discount-box {
+        /* text-align: center; */
+        width: 250px;
+        height: 120px;
+        /* transform: rotate(-20deg);
+        border-radius: 16px;
+        background: #FF5400;
+        position: sticky;
+        z-index: 99; */
+        margin-top: -190px;
+        margin-left: 255px;
+        /* right: 0; */
+        /* padding: 10px; */
+        /* color: #fff; */
+        /* line-height: 0; */
+        /* padding-top: auto; */
     }
     /* main ends */
 
