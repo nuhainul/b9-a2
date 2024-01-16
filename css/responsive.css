@@ -63,8 +63,9 @@
         border-radius: 16px;
         color: #FFF;
         text-align: center;
-        padding-top: 32px;
-        padding-bottom: 0px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .header-banner-content h2 {
@@ -86,7 +87,7 @@
         flex-direction: column;
         justify-content: center;
         gap: 24px;
-        padding-top: 24px;
+        /* padding-top: 24px; */
         background-color: rgba(255, 255, 255, 0.30);
         /* max-width: 800px; */
         margin-bottom: 32px;
